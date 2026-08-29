@@ -1,27 +1,25 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- title -->
-    <title>Nature's Platter</title>
-    <!-- tailwind cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!-- font awesome cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
-      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- custom css -->
-    <link rel="stylesheet" href="styles/tailwind.init.css" />
-  </head>
-  <body >
 
-    <div class="bg class="bg-linear-to-t from-[#FFFFFF]-0% to-[#EFEBE3]-100%"">
-      <!-- header section start here -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- title -->
+  <title>Nature's Platter</title>
+  <!-- tailwind cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="styles/tailwind.init.css" />
+</head>
+
+<body>
+
+  <div class="bg class=" bg-linear-to-t from-[#FFFFFF]-0% to-[#EFEBE3]-100%"">
+    <!-- header section start here -->
     <header class=" max-w-7xl mx-auto flex justify-between items-center py-4">
       <div>
         <img src="./assets/nav-logo.png" alt="logo" />
@@ -38,14 +36,10 @@
       <div class="flex gap-6 justify-between items-center">
         <i class="fa-solid fa-magnifying-glass"></i>
         <i class="fa-solid fa-cart-shopping"></i>
-        <button
-          class="border-2 font-bold border-[#179800] px-8 py-2 rounded-xl"
-        >
+        <button class="border-2 font-bold border-[#179800] px-8 py-2 rounded-xl">
           Login
         </button>
-        <button
-          class="border-2 bg-[#179800] px-8 py-2 rounded-xl font-bold text-white border-[#179800]"
-        >
+        <button class="border-2 bg-[#179800] px-8 py-2 rounded-xl font-bold text-white border-[#179800]">
           Register
         </button>
       </div>
@@ -60,16 +54,51 @@
             Freshness You <span class="text-[#179800]">Can</span><br />
             <span class="text-[#179800]">Count</span> On, Prices You’ll Love!
           </h1>
-          <p class="text-xl text-center my-10">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+          <p class="text-xl text-center my-10">Shop your daily essentials at unbeatable prices. From fresh produce to
+            pantry <br> staples, we’ve got you covered every day!</p>
         </div>
-        <div class="h-[600px]">
+        <div>
           <img src="./assets/Hero Section 1.png" alt="" />
         </div>
       </section>
       <!-- banner section end here -->
+      <!-- service sectio start here -->
+      <div>
+        <div class="title">
+          <h2 class="font-semibold text-4xl my-10 text-[#179800]">Services</h2>
+        </div>
+        <div class="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- card 1 -->
+          <div class="card bg-[#EFEBE3] p-10 rounded-2xl shadow-md">
+            <div class="img flex justify-center items-center bg-white p-3 rounded-full w-32 mx-auto ">
+              <img src="./assets/service.png" alt="">
+            </div>
+            <h3 class="text-2xl font-semibold text-center my-3">24/7 Services </h3>
+            <p class="text-center text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+          <!-- card 2 -->
+          <div class="card bg-[#EFEBE3] p-10 rounded-2xl shadow-md">
+            <div class="img flex justify-center items-center bg-white p-3 rounded-full w-32 mx-auto">
+              <img src="./assets/delivery.png" alt="">
+            </div>
+            <h3 class="text-2xl font-semibold text-center my-3">Fast Delivery </h3>
+            <p class="text-center text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+          <!-- card 3 -->
+          <div class="card bg-[#EFEBE3] p-10 rounded-2xl shadow-md">
+            <div class="img flex justify-center items-center bg-white p-3 rounded-full w-32 mx-auto">
+              <img src="./assets/products.png" alt="">
+            </div>
+            <h3 class="text-2xl font-semibold text-center my-3">Healthy Products </h3>
+            <p class="text-center text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          </div>
+        </div>
+      </div>
+      <!-- service section end here -->
     </main>
 
     <!-- main section end here -->
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>
